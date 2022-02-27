@@ -1,16 +1,16 @@
 import React from "react";
-import PropTypes from 'prop-types';
-
-const Bookmark = ({ status, ...rest }) => {
+import PropTypes from "prop-types";
+const Quality = ({ color, name, _id }) => {
     return (
-        <button {...rest}>
-            <i className={"bi bi-bookmark" + (status ? "-heart-fill" : "")}></i>
-        </button>
+        <span className={"badge m-1 bg-" + color} key={_id}>
+            {name}
+        </span>
     );
 };
-
-Bookmark.propTypes = {
-    status: PropTypes.bool.isRequired
+Quality.propTypes = {
+    color: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    _id: PropTypes.string.isRequired
 };
 
-export default BookMark;
+export default Quality;

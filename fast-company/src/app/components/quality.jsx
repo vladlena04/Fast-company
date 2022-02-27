@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 import PropTypes from 'prop-types';
 
-const Qualitie = ({ color, name, _id }) => {
+const Qualities = ({ color, name, id }) => {
     return (
-        <span className={"badge m-1 bg-" + color} key={_id}>
+        <span className={'badge m-1 bg-' + color} key={id}>
             {name}
         </span>
     );
@@ -15,4 +15,4 @@ Qualities.propTypes = {
     id: PropTypes.PropTypes.string
 };
 
-export default Qualitie;
+export default Qualities;
