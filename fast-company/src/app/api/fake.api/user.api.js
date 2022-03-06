@@ -146,7 +146,7 @@ const users = [
 const fetchAll = () =>
     new Promise((resolve) => {
         window.setTimeout(function () {
-            resolve(JSON.parse(localStorage.getItem('users')));
+            resolve(users);
         }, 2000);
     });
 
