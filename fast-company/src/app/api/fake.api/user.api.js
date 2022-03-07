@@ -150,6 +150,16 @@ const fetchAll = () =>
         }, 2000);
     });
 
+const getById = (id) =>
+    new Promise((resolve) => {
+        window.setTimeout(function () {
+            resolve(
+                JSON.parse(localStorage.getItem('users')).find(
+                    (user) => user._id === id
+                )
+            );
+        }, 1000);
+    });
 export default {
     fetchAll
 };

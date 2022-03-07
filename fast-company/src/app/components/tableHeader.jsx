@@ -19,7 +19,6 @@ const TableHeader = ({ onSort, selectedSort, columns }) => {
     };
 
     const handleSort = (item) => {
-        // console.log('handleSort', item, selectedSort);
         if (selectedSort.path === item.path) {
             onSort({ ...selectedSort, order: selectedSort.order === "asc" ? "desc" : "asc" });
         } else {
