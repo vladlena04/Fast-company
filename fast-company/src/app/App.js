@@ -5,8 +5,8 @@ import NavBar from "./components/navBar";
 import Login from "./layouts/login";
 import Users from "./layouts/users";
 import Main from "./layouts/main";
-import UserEditForm from "./component/userEditForm";
-import NotFound from "./component/notFound";
+import UserEditForm from "./components/userEditForm";
+import NotFound from "./components/notFound";
 
 function App() {
     return (

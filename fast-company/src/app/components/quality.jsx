@@ -8,6 +8,7 @@ const Quality = ({ color, name, _id }) => {
         </span>
     );
 };
+
 Quality.propTypes = {
     color: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
