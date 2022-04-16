@@ -54,7 +54,6 @@ const useMockData = () => {
             setStatus(statusConsts.error);
         }
     }
-
     return { error, initialize, progress, status };
 };
 
