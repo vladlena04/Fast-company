@@ -1,2 +1,0 @@
-# Fast-company
-dating app
