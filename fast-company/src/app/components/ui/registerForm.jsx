@@ -17,7 +17,7 @@ const RegisterForm = () => {
         licence: false
     });
     const [qualities, setQualities] = useState({});
-    const [professions, setProfession] = useState();
+    const [professions, setProfession] = useState([]);
     const [errors, setErrors] = useState({});
     useEffect(() => {
         api.professions.fetchAll().then((data) => setProfession(data));
