@@ -48,7 +48,7 @@ router.post('/signUp', [
     } catch (error) {
         console.log(error)
         res.status(500).json({
-            message: 'На сервере произощла ошибка. Поробуйте позже.'
+            message: 'На сервере произошла ошибка. Попробуйте позже.'
         })
     }
 }])
@@ -99,7 +99,7 @@ router.post('/signInWithPassword', [
         } catch (error) {
             console.log(error)
             res.status(500).json({
-                message: 'На сервере произощла ошибка. Поробуйте позже.'
+                message: 'На сервере произошла ошибка. Попробуйте позже.'
             })
         }
 }])
@@ -124,7 +124,7 @@ router.post('/token', async (req, res) => {
     } catch (error) {
         console.log(error)
         res.status(500).json({
-            message: 'На сервере произощла ошибка. Поробуйте позже.'
+            message: 'На сервере произошла ошибка. Попробуйте позже.'
         })
     }
 })
