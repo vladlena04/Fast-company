@@ -1,0 +1,6 @@
+{
+    "port": 27017,
+    "mongoUri": "mongodb://ujoravdeje0oxhsubyai:N7ScdbfvUk5ZJGRQRcDA@bak5tuytpqe5ymv-mongodb.services.clever-cloud.com:27017/bak5tuytpqe5ymv",
+    "accessSecret": "backend secret",
+    "refreshSecret": "emergency key"
+}
