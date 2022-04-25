@@ -3,7 +3,7 @@ module.exports = {
         browser: true,
         es2021: true
     },
-    extends: ["plugin:react/recommended"],
+    extends: ["plugin:react/recommended", "standard"],
     parserOptions: {
         ecmaFeatures: {
             jsx: true
@@ -19,12 +19,13 @@ module.exports = {
             "error",
             { anonymous: "always", named: "never" }
         ],
-        "multiline-ternary":["off"],
+        "multiline-ternary": ["off"],
         quotes: [
             "error",
             "double",
             {
-                allowTemplateLiterals: true
+                allowTemplateLiterals: true,
+                avoidEscape: true
             }
         ]
     }
